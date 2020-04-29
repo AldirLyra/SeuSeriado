@@ -7,8 +7,8 @@ body {
     margin: 0;
     padding: 0;
     background: #2C3A47;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12pt;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
     color: white;
 }
 
@@ -293,14 +293,17 @@ ul.contact li {
     text-align: center;
     margin: 5px;
     padding: 5px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .end,
 .contact {
     background-color: #1e272e;
-    margin: 0px;
-    padding: 4px;
+    margin: 2px;
+    padding: 1px;
+    background-size: 0em;
 }
 
 .redesocial1,
@@ -312,7 +315,6 @@ ul.contact li {
 .info {
     text-align: justify;
     text-align: center;
-    font-size: 1.0em;
     padding-bottom: 20px;
     list-style-type: none;
 }
@@ -324,13 +326,13 @@ ul.contact li {
 
 .imgot3 {
     position: absolute;
-    left: 90px;
+    left: 120px;
     padding-top: 90px;
 }
 
 .imgot4 {
     position: absolute;
-    right: 90px;
+    right: 120px;
     padding-top: 90px;
 }
 
@@ -338,4 +340,17 @@ ul.contact li {
     border-top: solid;
     border-color: black;
     border-width: 4px
+}
+
+.p1,
+.p2,
+.p3,
+.p4,
+.p5,
+.p6,
+.p7,
+.p8 {
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
 }

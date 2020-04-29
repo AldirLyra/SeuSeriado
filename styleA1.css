@@ -4,11 +4,14 @@ h2 {
     text-transform: uppercase;
     color: #2C3A47;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-size: 25px;
+    padding: 0;
     background-color: #4cd137;
     margin: 0;
-    border-style: solid;
+    border-bottom-style: solid;
     border-color: white;
-    border-width: 3px;
+    border-width: 5px;
 }
 
 body {
@@ -66,4 +69,9 @@ body {
 
 datalist {
     color: #2C3A47;
+}
+
+.banner {
+    position: relative;
+    left: 2.5px;
 }
