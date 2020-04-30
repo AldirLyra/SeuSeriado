@@ -120,7 +120,6 @@ ul.contact li {
 }
 
 #logo h1 {
-    display: inline-block;
     background: #4cd137;
     padding: 0.50em 1em;
     border-radius: 60px;
@@ -129,6 +128,8 @@ ul.contact li {
     border-bottom: solid;
     border-color: black;
     border-width: 4px;
+    position: absolute;
+    left: 450px;
 }
 
 #logo a {
@@ -326,13 +327,13 @@ ul.contact li {
 
 .imgot3 {
     position: absolute;
-    left: 120px;
+    left: 150px;
     padding-top: 90px;
 }
 
 .imgot4 {
     position: absolute;
-    right: 120px;
+    right: 150px;
     padding-top: 90px;
 }
 
@@ -353,4 +354,42 @@ ul.contact li {
     text-align: justify;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (min-width:600px) and (max-width:1350px) {
+    .imgot3,
+    .imgot4 {
+        display: none;
+    }
+    .p1,
+    .p2,
+    .p3,
+    .p4,
+    .p5,
+    .p6,
+    .p7,
+    .p8 {
+        padding-left: 15px;
+    }
+    .image-full {
+        padding-left: 14px;
+    }
+    .title2,
+    .title3 {
+        padding-left: 14px;
+    }
+    .end,
+    .contact {
+        width: 895pt;
+    }
+    .acopy {
+        font-size: 20pt;
+    }
+    #header-wrapper {
+        width: 895pt;
+    }
+    #logo h1 {
+        position: absolute;
+        left: 350px;
+    }
 }
