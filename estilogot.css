@@ -356,6 +356,13 @@ ul.contact li {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.p5,
+.p6,
+.p7,
+.p8 {
+    width: 1190px;
+}
+
 @media screen and (min-width:600px) and (max-width:1350px) {
     .imgot3,
     .imgot4 {
